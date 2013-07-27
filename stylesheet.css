@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Oswald;
+  src: url('fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+  font-family: Droid;
+  src: url('fonts/DroidSerif.ttf');
+}
+
+@font-face {
+  font-family: Droid-Bold;
+  src: url('fonts/DroidSerif-Bold.ttf');
+}
+@font-face {
+  font-family: Droid-italic;
+  src: url('fonts/DroidSerif-Italic.ttf');
+}
+
+.content {
+	width: 700px;
+	margin: 100px auto;
+	text-align: center;
+	font-family: 'Droid', serif;
+}
+
+.links {
+	text-align: center;
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+
+.fine-print {
+	font-family: "Droid-italic";
+}
+
+.links a {
+	margin: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.emphasis {
+	font-family: "Droid-italic";
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 75px;
+}
+
+h4 {
+	font-family: "Droid-bold";
+	font-size: 20px;
+}
+
+table
+{
+    color:#000000;
+    border-collapse:collapse;
+    padding:0px;
+    margin: 30px auto;
+}
+ 
+th
+{
+    color:#000000;
+    border-bottom-style: solid;
+    border-width:1px;
+    border-color:#000000;
+   	font-family: "Droid-bold";
+    padding:0px;
+    text-align:center;
+    vertical-align:top;
+}
+ 
+tr
+{
+    font-weight:normal;
+}
+ 
+tr:nth-child(odd) td
+{
+background:#ffffff;
+}
+ 
+td
+{
+    background:#ffffff;
+    padding:4px 10px 0px;
+    text-align:left;
+    vertical-align:top;
+}
