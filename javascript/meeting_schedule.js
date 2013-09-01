@@ -6,7 +6,7 @@ $(document).ready(function(){
 
             // https://docs.google.com/spreadsheet/pub?key=0AsXSn_cHpaWCdDBvWDYwakFHTU50TFBnanllaGFITmc&single=true&gid=0&output=csv
     // The YQL address:
-    var yqlURL =	"http://query.yahooapis.com/v1/public/yql?q="+
+    var yqlURL = "https://query.yahooapis.com/v1/public/yql?q="+
             "select%20*%20from%20csv%20where%20url%3D'"+encodeURIComponent(csvURL)+
             "'%20and%20columns%3D'meeting_time%2Ctopic'&format=json&callback=?";
 

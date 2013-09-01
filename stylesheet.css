@@ -19,13 +19,14 @@
 
 .content {
 	width: 900px;
-	margin: 100px auto;
+	margin: 50px auto;
 	text-align: center;
 	font-family: 'Droid', serif;
 }
 
 .content-narrow {
-  width: 80%;
+  width: 700px;
+  margin: 0px auto;
 }
 
 .links {
@@ -36,6 +37,16 @@
 
 .fine-print {
 	font-family: "Droid-italic";
+}
+
+.links {
+  margin: 30px auto;
+}
+
+p {
+  line-height: 20px;
+  padding: 15px 0px;
+  font-weight: normal;
 }
 
 .links a {
@@ -58,16 +69,25 @@ ul {
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 75px;
+  font-weight: normal;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 45px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Droid";
+  font-size: 20px;
+  font-weight: normal;
 }
 
 h4 {
 	font-family: "Droid-bold";
 	font-size: 20px;
+  font-weight: normal;
 }
 
 table
@@ -85,25 +105,46 @@ th
     border-width:1px;
     border-color:#000000;
    	font-family: "Droid-bold";
+    font-weight: normal;
     padding:0px;
     text-align:center;
     vertical-align:top;
 }
- 
+
 tr
 {
     font-weight:normal;
 }
- 
-tr:nth-child(odd) td
-{
-background:#ffffff;
+
+.heading-row {
+  line-height: 30px;
+  border-bottom: 1px solid;
 }
  
 td
 {
-    background:#ffffff;
-    padding:4px 10px 0px;
+    padding:10px 10px 0px;
     text-align:left;
     vertical-align:top;
+}
+
+.important-info {
+  width: 500px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid;
+}
+
+.important-info p {
+  line-height: 1;
+  padding: 5px;
+}
+
+.important-info h4 {
+  margin: 5px;
+}
+
+.list li {
+  border-bottom: 1px solid;
+  padding-top: 10px;
 }
