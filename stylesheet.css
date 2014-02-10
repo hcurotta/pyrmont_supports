@@ -18,7 +18,7 @@
 }
 
 .content {
-	width: 900px;
+	width: 1000px;
 	margin: 50px auto;
 	text-align: center;
 	font-family: 'Droid', serif;
@@ -50,6 +50,7 @@ p {
 }
 
 .links a {
+  font-size: 25px;
 	margin: 20px;
 }
 
@@ -92,6 +93,8 @@ h4 {
 
 table
 {
+    table-layout: fixed;
+    width: 1000px;
     color:#000000;
     border-collapse:collapse;
     padding:0px;
@@ -114,6 +117,7 @@ th
 tr
 {
     font-weight:normal;
+    border-bottom: 1px solid #E3E3E3;
 }
 
 .heading-row {
@@ -123,7 +127,7 @@ tr
  
 td
 {
-    padding:10px 10px 0px;
+    padding:10px 10px 10px;
     text-align:left;
     vertical-align:top;
 }

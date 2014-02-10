@@ -45,9 +45,6 @@ $(document).ready(function(){
                     var comments = ""
                 }
 
-                console.log(this.heading)
-
-
                 if (this.heading == "Y") {
                      var tableRow = "<tr class='heading-row'><td colspan='4'><h3>"+ bizname +"<h3></td></tr>"
                 } else {
